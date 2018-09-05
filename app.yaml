@@ -1,0 +1,9 @@
+# [START app_yaml]
+runtime: nodejs8
+service: nodejs8-admin-login
+# [END app_yaml]
+
+handlers:
+- url: /.*
+  login: admin
+  script: auto
