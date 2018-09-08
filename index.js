@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
   res.render('index')
 });
 
-app.get('/policy', (req, res) => {
+app.get('/privacy', (req, res) => {
   res.render('privacy')
 });
 
